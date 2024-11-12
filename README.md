@@ -6,3 +6,4 @@ This website can calculate your average grade with weights and tells you how muc
 - Dowload
 - pip install -r requirements.txt (install libarys)
 - streamlit run GradeCalculateWebSite.py
+- Have Fun
