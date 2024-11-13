@@ -1,12 +1,30 @@
 # GradeCalculateWebSite.py
-WebSite made in Python using StreamLit library
 
-This website can calculate your average grade with weights and tells you how much you need to score on the recovery test (considering you are a UDESC student)
+A website built in Python using the Streamlit library.
 
-- Dowload
-- On Terminal 
--> pip install -r requirements.txt
--> streamlit run GradeCalculateWebSite.py
-- Have Fun
+This website calculates your weighted average grade and tells you the score you need on a recovery test (specifically for UDESC students).
 
-# How average grade is calculated at UDESC?
+## How to use: 
+
+- Download
+- In the terminal:
+```bash
+pip install -r requirements.txt
+streamlit run GradeCalculateWebSite.py
+```
+- Enjoy!
+
+## How is the average grade calculated at UDESC?
+
+- **Semester Grade (SG):**
+  - If **SG ≥ 7.0** → Pass
+  - If **SG < 7.0** → Final Exam (FE)
+
+ When the student needs to take the Final Exam (FE), the Final Grade (FG) is calculated as:
+ 
+- **Final Grade (FG)** calculation formula:
+
+# FG = ((SG * 6) + (FE * 4)) / 10
+
+  - If **FG ≥ 5.0** → Pass
+  - If **FG < 5.0** → Fail
