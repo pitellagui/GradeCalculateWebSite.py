@@ -24,7 +24,7 @@ streamlit run GradeCalculateWebSite.py
  
 - **Final Grade (FG)** calculation formula:
 
-# FG = ((SG * 6) + (FE * 4)) / 10
+![Formula](Formula.png)
 
   - If **FG ≥ 5.0** → Pass
   - If **FG < 5.0** → Fail
