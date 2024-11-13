@@ -5,7 +5,8 @@ A website built in Python using the Streamlit library.
 This website calculates your weighted average grade and tells you the score you need on a recovery test (specifically for UDESC students).
 
 ## How to use: 
-
+- [Click Here]()
+Or 
 - Download
 - In the terminal:
 ```bash
