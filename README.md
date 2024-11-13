@@ -14,7 +14,7 @@ streamlit run GradeCalculateWebSite.py
 ```
 - Enjoy!
 
-## How is the average grade calculated at UDESC?
+# How is the average grade calculated at UDESC?
 
 - **Semester Grade (SG):**
   - If **SG ≥ 7.0** → Pass
@@ -24,7 +24,16 @@ streamlit run GradeCalculateWebSite.py
  
 - **Final Grade (FG)** calculation formula:
 
-![Formula](Formula.png)
+![Final Exam Formula](FinalExamFormula.png)
 
   - If **FG ≥ 5.0** → Pass
   - If **FG < 5.0** → Fail
+
+## How to calculate the Minimum Grade needed to pass?
+![Min Grade Formula](MinGradeFormula.png)
+
+Where: 
+- SG => Semestral Grade
+- MG => Minimum Grade
+
+
